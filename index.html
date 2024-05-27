@@ -10,6 +10,27 @@
         <div class="container">
             <div class="navbar">
                 <h1>LIBRARY</h1>
+                <button id = "addButton">ADD BOOK</button>
+                <dialog id = "addDialog">
+                    <form>
+                        <p>
+                            <label>Title: <input type="text"> </label>
+                            <label>Author: <input type="text"> </label>
+                            <label>Pages: <input type="text"> </label>
+                            <label>Read status: 
+                                <select>
+                                    <option>Read</option>
+                                    <option>Reading</option>
+                                    <option>To Read</option>
+                                </select> 
+                            </label>
+                        </p>
+                        <div>
+                            <button value="cancel" formmethod="dialog">Cancel</button>
+                            <button id="confirmBtn" value="default">Confirm</button>
+                        </div>
+                    </form>
+                </dialog>
             </div>
             <div class="heading">
                 <div class="tags">

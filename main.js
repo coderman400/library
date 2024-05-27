@@ -1,4 +1,11 @@
 const Books = [];
+const addButton = document.getElementById('addButton')
+const addDialog = document.getElementById('addDialog');
+
+addButton.addEventListener("click", ()=>{
+    addDialog.showModal();
+})
+
 function Book(title,author,pages,read){
     this.title = title;
     this.author = author;
