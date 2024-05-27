@@ -14,14 +14,14 @@
 }
 .tags{
     display: grid;
-    grid-template-columns: 40% 25% 1fr 1fr;
+    grid-template-columns: 40% 25% 1fr 1fr 0.5fr 0.2fr;
     padding: 0.5rem 1rem;
     background-color: beige;
     font-weight:bold;
 }
 .book{
     display: grid;
-    grid-template-columns: 40% 25% 1fr 1fr;
+    grid-template-columns: 40% 25% 1fr 1fr 0.5fr 0.2fr;
     padding: 0.5rem 1rem;
 }
 .navbar{
@@ -34,13 +34,15 @@
 h1{
     margin-left:4%;
 }
-button{
+#addButton{
     margin-right:4%;
     padding:5px;
     font-weight:bolder;
     height:3rem;
 }
-
+.book button{
+    margin-right:0.5rem;
+}
 p{
     display:flex;
     flex-direction: column;

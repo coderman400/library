@@ -14,20 +14,19 @@
                 <dialog id = "addDialog">
                     <form>
                         <p>
-                            <label>Title: <input type="text"> </label>
-                            <label>Author: <input type="text"> </label>
-                            <label>Pages: <input type="text"> </label>
+                            <label>Title: <input id = "title" type="text"> </label>
+                            <label>Author: <input id = "author" type="text"> </label>
+                            <label>Pages: <input id = "pages" type="text"> </label>
                             <label>Read status: 
                                 <select>
-                                    <option>Read</option>
-                                    <option>Reading</option>
-                                    <option>To Read</option>
+                                    <option>read</option>
+                                    <option>not read</option>
                                 </select> 
                             </label>
                         </p>
                         <div>
-                            <button value="cancel" formmethod="dialog">Cancel</button>
-                            <button id="confirmBtn" value="default">Confirm</button>
+                            <button class = 'formbutton' id= "cancelBtn" value="cancel" formmethod="dialog">Cancel</button>
+                            <button class = 'formbutton' id="confirmBtn" value="default">Confirm</button>
                         </div>
                     </form>
                 </dialog>
@@ -39,12 +38,13 @@
                     <li>PAGES</li>
                     <li>READ</li>
                 </div>
-                <div class="book">
+                <!-- <div class="book">
                     <li>Harry Potter</li>
                     <li>J.K. Rowling</li>
                     <li>300</li>
                     <li>Read</li>
-                </div>
+                    <button>X</button>
+                </div> -->
             </div>
         </div>
     </body>
